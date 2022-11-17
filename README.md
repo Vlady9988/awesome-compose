@@ -29,7 +29,7 @@ services:
 When deploying this setup, docker compose maps the WordPress container port 80 to
 port 80 of the host as specified in the compose file.
 
-> ℹ️ **_INFO_**  
+> ℹ️ **_INFoooO_**  
 > For compatibility purpose between `AMD64` and `ARM64` architecture, we use a MariaDB as database instead of MySQL.  
 > You still can use the MySQL image by uncommenting the following line in the Compose file   
 > `#image: mysql:8.0.27`
