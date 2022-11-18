@@ -31,10 +31,12 @@ services:
     restart: always
     ports:
       - 8080:80
+    links:
+      - db
     environment:
       - PMA_ARBITRARY=1
+      - PMA_HOST=db
+      - PMA_PORT=3306
 volumes:
   db_data:
 
-  
-    
