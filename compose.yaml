@@ -35,6 +35,11 @@ services:
       - db
     environment:
       - PMA_ARBITRARY=1
+  apache:
+    image: httpd:latest
+    ports:
+      - 8081:80
+    restart: always
 volumes:
   db_data:
 
