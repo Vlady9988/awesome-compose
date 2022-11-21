@@ -37,7 +37,6 @@ services:
       - PMA_ARBITRARY=1
   ubuntu_pulled:
     image: vlady9988/project:latest
-    restart: always
 #  apache:
 #    image: httpd:latest
 #    ports:
