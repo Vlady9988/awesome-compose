@@ -1,3 +1,3 @@
 FROM alpine:3.14
-ADD ./var/lib/jenkins/workspace/test1/* ./
+COPY ./var/lib/jenkins/workspace/test1/* ./
 
