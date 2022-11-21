@@ -1,3 +1,3 @@
 FROM alpine:3.14
-ADD /home/voanes/project/awesome-compose/* /
+ADD /var/lib/jenkins/workspace/test1/* /
 
