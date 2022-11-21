@@ -35,11 +35,14 @@ services:
       - db
     environment:
       - PMA_ARBITRARY=1
-  apache:
-    image: httpd:latest
-    ports:
-      - 8081:80
+  ubuntu_pulled:
+    image: vlady9988/project:latest
     restart: always
+#  apache:
+#    image: httpd:latest
+#    ports:
+#      - 8081:80
+#    restart: always
 #  nginx:
 #    image: nginx
 #    volumes:
