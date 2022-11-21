@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-COPY ./* ./project
+COPY ./* ./project/
 RUN apt update
 RUN apt install nano
 
